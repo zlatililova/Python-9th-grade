@@ -6,23 +6,22 @@ class Person:
     def __add__(self, other_obj):
         prs = Person("",0)
         prs.age = self.age + other_obj.age
-        return prs.age
+        return prs
 
     def __sub__(self, other_obj):
         prs = Person("",0)
         prs.age = self.age - other_obj.age
-        return prs.age
+        return prs
 
     def __mul__(self, other_obj):
         prs = Person("",0)
         prs.age = self.age * other_obj.age
-        return prs.age
+        return prs
 
     def __truediv__(self, other_obj):
         prs = Person("",0)
         prs.age = self.age / other_obj.age
-        return prs.age
-
+        return prs
 
 p = Person("Alex", 15)
 p1 = Person("Pesho", 10)
